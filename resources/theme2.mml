@@ -1,0 +1,230 @@
+<!-- Halatheme 1.0 by Hopper <hopper@whpress.com> -->
+<!-- Thanks to Ian Pitcher <ipitcher@technician.org> for the initial theme -->
+
+<marathon>
+<theme>
+
+<!-- color indices:
+     0 foreground color
+     1 background color
+     2 frame color
+-->
+
+<default>
+  <color index="0" red="0.875" green="0.875" blue="0.875"/>
+  <color index="1" red="0.0" green="0.125" blue="0.25"/>
+  <color index="2" red="0.625" green="0.75" blue="0.875"/>
+  <font file="Oceania-Medium.ttf" size="14" adjust_height="1"/>  
+</default>
+
+<checkbox top="0" height="11">
+<image index="0" file="checke.bmp" scale="false"/>
+<image index="1" file="checkf.bmp" scale="false"/>
+<active>
+<image index="0" file="checke_a.bmp" scale="false"/>
+<image index="1" file="checkf_a.bmp" scale="false"/>
+</active>
+<disabled>
+<image index="0" file="checke_d.bmp" scale="false"/>
+<image index="1" file="checkf_d.bmp" scale="false"/>
+</disabled>
+</checkbox>
+
+<!-- Dialog frame -->
+<frame top="12" bottom="12" left="12" right="12">
+  <image index="0" file="framez_tl.bmp" scale="false"/>
+  <image index="1" file="frame.bmp" scale="false"/>
+  <image index="2" file="frame.bmp" scale="false"/>
+  <image index="3" file="frame.bmp" scale="false"/>
+  <image index="4" file="frame.bmp" scale="false"/>
+  <image index="5" file="frame.bmp" scale="false"/>
+  <image index="6" file="frame.bmp" scale="false"/>
+  <image index="7" file="framez_br.bmp" scale="false"/>
+  
+  <color index="1" red="0.0" green="0.125" blue="0.25"/>
+</frame>
+
+<!-- Dialog title -->
+<title top="10" bottom="10" height="40">
+<font file="NEWTOW__.TTF" size="24" adjust_height="10"/>
+  <color red="0.875" green="0.875" blue="0.875"/>
+</title>
+
+<!-- Spacer -->
+<spacer height="8"/>
+
+<!-- Button -->
+<button top="6" left="16" right="16" height="24">
+  <font file="NEWTOW__.TTF" size="14" style="0"/>
+  <color index="0" red="0.875" green="0.875" blue="0.875"/>
+  <image index="0" file="buttonzz_l.bmp" scale="false"/>
+  <image index="1" file="buttonzz_c.bmp" scale="false"/>
+  <image index="2" file="buttonzz_r.bmp" scale="false"/>
+  <active>
+    <color red="1.0" green="1.0" blue="0.25"/>
+  <image index="0" file="buttonz_l.bmp" scale="false"/>
+  <image index="1" file="buttonz_c.bmp" scale="false"/>
+  <image index="2" file="buttonz_r.bmp" scale="false"/>
+  </active>
+  <disabled>
+    <color red="0.375" green="0.5" blue="0.625"/>
+  <image index="0" file="buttonzz_l.bmp" scale="false"/>
+  <image index="1" file="buttonzz_c.bmp" scale="false"/>
+  <image index="2" file="buttonzz_r.bmp" scale="false"/>
+  </disabled>
+  <pressed>
+    <color red="1.0" green="1.0" blue="1.0"/>
+  <image index="0" file="buttonz_l.bmp" scale="false"/>
+  <image index="1" file="buttonz_c.bmp" scale="false"/>
+  <image index="2" file="buttonz_r.bmp" scale="false"/>
+  </pressed>
+</button>
+
+<tiny_button top="3" left="12" right="12" height="16">
+  <font file="NEWTOW__.TTF" size="12" style="0"/>
+  <color index="0" red="0.875" green="0.875" blue="0.875"/>
+  <image index="0" file="tbuttonzz_l.bmp" scale="false"/>
+  <image index="1" file="tbuttonzz_c.bmp" scale="false"/>
+  <image index="2" file="tbuttonzz_r.bmp" scale="false"/>
+  <active>
+    <color red="1.0" green="1.0" blue="0.25"/>
+  <image index="0" file="tbuttonz_l.bmp" scale="false"/>
+  <image index="1" file="tbuttonz_c.bmp" scale="false"/>
+  <image index="2" file="tbuttonz_r.bmp" scale="false"/>
+  </active>
+  <disabled>
+    <color red="0.375" green="0.5" blue="0.625"/>
+  <image index="0" file="tbuttonzz_l.bmp" scale="false"/>
+  <image index="1" file="tbuttonzz_c.bmp" scale="false"/>
+  <image index="2" file="tbuttonzz_r.bmp" scale="false"/>
+  </disabled>
+  <pressed>
+    <color red="1.0" green="1.0" blue="1.0"/>
+  <image index="0" file="tbuttonz_l.bmp" scale="false"/>
+  <image index="1" file="tbuttonz_c.bmp" scale="false"/>
+  <image index="2" file="tbuttonz_r.bmp" scale="false"/>
+  </pressed>
+</tiny_button>
+
+<!-- Label -->
+<label>
+  <color red="0.625" green="0.75" blue="0.875"/>
+  <active>
+    <color red="0.875" green="0.875" blue="0.375"/>
+  </active>
+  <disabled>
+    <color red="0.25" green="0.375" blue="0.5"/>
+  </disabled>
+</label>
+
+<!-- Item -->
+<item space="10">
+  <color red="0.75" green="0.875" blue="1.0"/>
+  <active>
+    <color red="1.0" green="1.0" blue="0.5"/>
+  </active>
+  <disabled>
+    <color red="0.375" green="0.5" blue="0.625"/>
+  </disabled>
+</item>
+
+<!-- Text message -->
+<message>
+</message>
+
+<!-- Text entry widget -->
+<text_entry>
+  <color red="0.75" green="0.875" blue="1.0"/>
+  <active>
+    <color red="1.0" green="1.0" blue="0.5"/>
+  </active>
+  <disabled>
+    <color red="0.25" green="0.375" blue="0.5"/>
+  </disabled>
+</text_entry>
+
+<!-- Metaserver and pre-game chat -->
+<chat_entry name_width="100">
+  <color index="0" red="1" green="1" blue="1"/>
+</chat_entry>
+
+<!-- List selection widget -->
+<list top="6" bottom="4" left="8" right="16">
+  <image index="0" file="list_tl.bmp" scale="false"/>
+  <image index="1" file="frame.bmp" scale="false"/>
+  <image index="2" file="list_tr.bmp" scale="false"/>
+  <image index="3" file="frame.bmp" scale="false"/>
+  <image index="4" file="frame.bmp" scale="false"/>
+  <image index="5" file="list_bl.bmp" scale="false"/>
+  <image index="6" file="frame.bmp" scale="false"/>
+  <image index="7" file="list_br.bmp" scale="false"/>
+  <trough top="21" right="12" bottom="9" width="12"/>
+  <thumb>
+    <image index="0" file="thumb_t.bmp" scale="false"/>
+    <image index="1" file="thumb_c.bmp" scale="false"/>
+    <image index="2" file="thumb_c.bmp" scale="false"/>
+    <image index="3" file="thumb_c.bmp" scale="false"/>
+    <image index="4" file="thumb_b.bmp" scale="false"/>
+  </thumb>
+</list>
+
+<!-- Slider -->
+<slider>
+  <image index="0" file="slider_l.bmp" scale="false"/>
+  <image index="1" file="slider_c.bmp" scale="false"/>
+  <image index="2" file="slider_l.bmp" scale="false"/>
+  <thumb>
+    <image index="0" file="slider_t.bmp" scale="false"/>
+  </thumb>
+</slider>
+
+<tab top="5" left="16" right="16" height="32" inner_left="8" inner_right="8">
+  <font file="NEWTOW__.TTF" size="14" style="0"/>
+  <color red="0.625" green="0.75" blue="0.875"/>
+  <image index="0" file="buttonz_l.bmp" scale="false"/>
+  <image index="1" file="buttonz_c.bmp" scale="false"/>
+  <image index="2" file="buttonz_c.bmp" scale="false"/>
+  <image index="3" file="buttonz_c.bmp" scale="false"/>
+  <image index="4" file="buttonz_r.bmp" scale="false"/>
+  <pressed>
+    <color red="1.0" green="1.0" blue="1.0"/>
+  </pressed>
+  <active>
+    <color red="1.0" green="1.0" blue="0.25"/>
+  </active>
+  <disabled>
+    <color red="0.375" green="0.5" blue="0.625"/>
+    <image index="0" file="buttonzz_l.bmp" scale="false"/>
+    <image index="1" file="buttonzz_c.bmp" scale="false"/>
+    <image index="2" file="buttonzz_c.bmp" scale="false"/>
+    <image index="3" file="buttonzz_c.bmp" scale="false"/>
+    <image index="4" file="buttonzz_r.bmp" scale="false"/>
+  </disabled>
+</tab>
+
+<metaserver>
+<games spacing="7">
+  <color index="0" red="0.75" green="0.875" blue="1.0"/>
+  <selected>
+    <color index="0" red="1.0" green="1.0" blue="1.0"/>
+    <color index="1" red="0.25" green="0.375" blue="0.5"/>
+  </selected>
+  <incompatible>
+    <color index="0" red="1.0" green="0.5" blue="0.5"/>
+    <selected>
+      <color index="0" red="1.0" green="0.75" blue="0.75"/>
+      <color index="1" red="0.25" green="0.375" blue="0.5"/>
+    </selected>
+  </incompatible>
+  <running>
+    <color index="0" red="0.375" green="0.5" blue="0.625"/>
+    <selected>
+      <color index="0" red="0.75" green="0.75" blue="0.75"/>
+      <color index="1" red="0.25" green="0.375" blue="0.5"/>
+    </selected>
+  </running>
+</games>
+</metaserver>
+
+</theme>
+</marathon>

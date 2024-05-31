@@ -1,0 +1,29 @@
+Halatheme 1.0
+-------------
+by Hopper
+
+----------------------------------------------------------------
+DESCRIPTION:
+Halatheme is a GUI theme for Aleph One, loosely inspired by the 2D interface elements in Bungie's Halo series. It was started as an experiment in the theme engine's capabilities, but I decided to release it for others to play with.
+
+----------------------------------------------------------------
+INSTALLATION:
+- Drag the downloaded .zip file, or the unzipped "Halatheme" folder, into the "Plugins" folder inside your M1A1, Marathon 2, or Marathon Infinity folders. (Create a "Plugins" folder if you don't already have one.)
+- Launch Aleph One, and go to "Preferences", then "Environment", then "Plugins" make sure the plugin is listed as "Enabled". You can click on it to turn it on or off.
+
+----------------------------------------------------------------
+CHANGELOG:
+
+v1.0:
+* First release
+
+----------------------------------------------------------------
+SPECIAL THANKS:
+Bungie - For inspiration from the Halo interface design
+Roger White, Morice Kastoun - For fonts used in the theme
+Treellama - For creating the theming engine, and answering questions
+
+----------------------------------------------------------------
+CONTACT:
+If you have any questions, comments, or bugs to report, you can email me:
+- Hopper@whpress.com
